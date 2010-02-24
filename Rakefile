@@ -1,4 +1,5 @@
 require 'newgem'
+require 'hoe'
 require File.dirname(__FILE__) + "/lib/haml_scaffold/version"
 $hoe = Hoe.new("haml_scaffold", HamlScaffold::Version::STRING) do |p|
   p.rubyforge_name = "haml-scaffold"
